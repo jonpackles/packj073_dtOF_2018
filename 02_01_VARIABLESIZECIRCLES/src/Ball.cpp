@@ -17,9 +17,13 @@ void Ball::setup(){
 }
 
 void Ball::update(){
+    
+//    speedY+= .1;
     if(x < 0 ){
         x = 0;
         speedX *= -1;
+        
+        
     } else if(x > ofGetWidth()){
         x = ofGetWidth();
         speedX *= -1;
