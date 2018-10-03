@@ -57,7 +57,7 @@ void ofApp::draw(){
            
            inside.setVolume(.9);
            outside.setVolume(.2);
-           news.setVolume(.15);
+           news.setVolume(.25);
            
            
        } else {
